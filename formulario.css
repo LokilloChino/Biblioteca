@@ -8,21 +8,7 @@ body{
     background-color: #F5F5F4;
 }
 
-.barra-nav img{
-    width: 30%;
-    height: 130vh;
-    background-color: #CDB8E9;
-    border-radius: 0 50px 50px 0;
-    padding: 80px;
-    font-size: 35px;
-}
 
-.barra-nav a{
-    display: block;
-    text-decoration: none;
-    color: black;
-    font-family: 'Inter';
-}
 
 .dashboard{
     display: flex;
@@ -146,6 +132,9 @@ h1{
     font-family: Vivaldi, cursive;
     font-size: 32px;
 }
+
+
+
 
 /* TABLET */
 @media (max-width:768px){

@@ -397,3 +397,70 @@ span{
     }
 
 }
+
+/* ================= IPAD ================= */
+@media (max-width:768px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barra-nav{
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        padding: 20px;
+    }
+
+    .barra-nav a{
+        display: block; /* Vertical */
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+    .barra-nav img{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* ================= TELEFONO ================= */
+@media (max-width:468px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barra-nav{
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        padding: 20px;
+    }
+
+    .barra-nav a{
+        display: block; /* Vertical */
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+    .barra-nav img{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+}
