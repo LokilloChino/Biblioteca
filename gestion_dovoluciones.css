@@ -5,8 +5,395 @@
 
 body{
     background-color: #F5F5F4;
+    display: flex;
 }
 
 .barra-nav{
     background-color: #CDB8E9;
+}
+
+.barra-nav{
+    width: 22%;
+    height: 100vh;
+    background-color: #CDB8E9;
+    border-radius: 0 50px 50px 0;
+    padding: 50px;
+}
+
+.barra-nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Inter';
+    margin-bottom: 70px;
+}
+
+img{
+    width: 95%;
+    height: 40%;
+}
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.columna1 h2{
+    margin: 50px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+}
+
+.contenido{
+    margin: 10px 20px;
+    padding: 15px;
+    flex: 1;
+    width: 70%;
+    background-color: #F5F5F4;
+    border-radius: 10px;
+    box-shadow: 0 2px 1px rgb(132, 128, 128);
+}
+
+h4{
+    font-size: 24px;
+}
+
+input{
+    background-color: #D9D9D9;
+    font-family: fantasy;
+    font-size: 48bvh;
+    width: 100%;
+    border: none;
+}
+
+.contenedor-padre{
+    width: 80%;
+    height: 40%;
+    padding: 0;
+    flex: 1;
+    background-color: #D9D9D9;
+    margin: 25px 20px;
+    border-radius: 10px;
+}
+
+h3{
+    text-align: center;
+    font-size: 32px;
+}
+
+.informacion{
+    margin: 10px;
+    font-size: 24px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F4;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 1px rgb(132, 128, 128);
+}
+
+.dato{
+    margin: 10px;
+    font-size: 24px;
+}
+
+.boton{
+    width: 294px;
+    height: 65px;
+}
+
+.boton a button{
+    display: inline-block;
+    width: 90%;
+    height: 60px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+    margin: 50px 90px;
+    font-size: 25px;
+}
+
+.columna2{
+    margin: 0 35px;
+}
+
+.columna2 h2{
+    margin: 50px 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+}
+
+.box-reporte{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 55%;
+    margin: 0 30px;
+    background-color: #F5F5F4;
+    border-radius: 10px;
+    box-shadow: 0 0.5px 1px 1px rgb(198, 198, 198);
+}
+
+form{
+    width: 120%;
+    height: 70vh;
+}
+
+.box-campos{
+    position: relative;
+    top: 30px;
+    width: 80%;
+    height: 100%;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.campos1{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(198, 198, 198);
+    background-color: transparent;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+.campos2{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(198, 198, 198);
+    background-color: transparent;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+.campos3{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(198, 198, 198);
+    background-color: transparent;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+.campos4{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(198, 198, 198);
+    background-color: transparent;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+.campos5{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(198, 198, 198);
+    background-color: transparent;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+.campos6{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(198, 198, 198);
+    background-color: transparent;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+label{
+    margin-top: 15px;
+    font-size: 24px;
+    width: 80%;
+}
+
+span{
+    margin: 30px;
+    font-size: 24px;
+}
+
+
+@media (min-width: 1025px) {
+
+    .contenedor{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .barra-nav{
+        width: 32%;
+    }
+
+    .barra-nav a{
+        font-size: 28px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .contenedor{
+        grid-template-columns: 1fr;
+    }
+
+    .barra-nav{
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        padding: 20px;
+    }
+
+    .barra-nav a{
+        display: inline-block;
+        margin: 45px;
+        font-size: 35px;
+    }
+    
+    h1{
+        margin: 1px 40px;
+        font-size: 62px;
+    }
+
+    img{
+        margin: 30px 10px;
+        height: 30vh;
+    }
+
+    .columna1 h2,.columna2 h2{
+        font-size: 34spx;
+        margin: 30px 10px;
+    }
+
+    .contenido{
+        width: 70%;
+    }
+
+    .contenedor-padre,.box-reporte{
+        width: 40vh;
+        height: 35vh;
+    }
+
+    .box-reporte{
+        margin: -18px;
+    }
+
+    form{
+        width: 120%;
+        height: 60vh;
+        font-size: 5px;
+    }
+
+    .boton a button{
+        width: 100%;
+        margin: 20px 60px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barra-nav{
+        width: 100%;
+        height: 122vh;
+        padding: 15px;
+        border-radius: 0;
+    }
+
+    .barra-nav a{
+        font-size: 32px;
+        margin-bottom: 45px;
+    }
+
+    h1{
+        font-size: 42px;
+    }
+
+    img{
+        margin: 1px;
+        width: 100%;
+        height: auto;
+    }
+
+    .columna1 h2,.columna2 h2{
+        font-size: 34spx;
+        margin: 40px 10px;
+    }
+
+    .contenido{
+        width: 89%;
+        margin: 10px 10px;
+    }
+
+    .contenedor-padre{
+        width: 100%;
+        margin: 20px 10px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    .top{
+        align-items: flex-start;
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+
+    .informacion,.dato{
+        font-size: 18px;
+    }
+
+    .box-reporte{
+        width: 45vh;
+        margin: auto;
+        height: auto;
+    }
+
+    form{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .box-campos{
+        width: 95%;
+        margin: auto;
+    }
+
+    label,span{
+        font-size: 20px;
+    }
+
+    .campos1, .campos2, .campos3, .campos4, .campos5, .campos6{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .boton{
+        width: 80%;
+    }
+
+    .boton a button{
+        width: 90%;
+        margin: 20px 40px;
+        font-size: 18px;
+    }
+
 }

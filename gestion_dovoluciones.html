@@ -9,11 +9,107 @@
 <body>
     
 <nav class="barra-nav">
+    <h1>Gestión de Devoluciones</h1>
+    <br>
+    <br>
     <a href="panel.html">Panel</a>
     <a href="gestion_docentes.html">Gestión de Docentes</a>
     <a href="gestion_prestamos.html">Gestión de Préstamo</a>
     <a href="gestion_libros.html">Gestión de libros</a>
+    <img src="Bi.jpeg" alt="">
 </nav>
+
+<div class="contenedor">
+    <div class="columna1">
+        <h2>Gestión de Devolucines</h2>
+        <div class="contenido">
+            <h4>Buscar Préstamo</h4>
+            <input type="search" placeholder="Ingresa ID de prestamo...">
+        </div>
+
+        <div class="contenedor-padre">
+            <h3>Información del Préstamo</h3>
+            
+            <div class="top">
+                <div class="informacion">
+                    <p>ID Préstamos:</p>
+                    <br>
+                    <p>Usuario:</p>
+                    <br>
+                    <p>Libro:</p>
+                    <br>
+                    <p>Fecha Préstamo:</p>
+                    <br>
+                    <p>Fecha devolución:</p>
+                    <br>
+                    <p>Estado:</p>
+                </div>
+                <br>
+                <div class="dato">
+                    <p>PRE001</p>
+                    <br>
+                    <p>Juan Pérez</p>
+                    <br>
+                    <p>La Odicea</p>
+                    <br>
+                    <p>15/06/2026</p>
+                    <br>
+                    <p>22/06/2026</p>
+                    <br>
+                    <p>Activo</p>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="boton">
+            <a href="#">
+                <button>Registrar Devolución</button>
+            </a>
+        </div>
+        
+    </div>
+    
+    <div class="columna2">
+        <h2>Reportes</h2>
+        <div class="box-reporte">
+            <form action="#">
+                <div class="box-campos">
+                    <br>
+                    <div class="campos1">
+                        <label for="Libros_más_préstados">Libros más préstados</label>
+                        <span>></span>
+                    </div>
+                    <br>
+                    <div class="campos2">
+                        <label for="Préstamos_vencidos">Préstamos vencidos</label>
+                        <span>></span>
+                    </div>
+                    <br>
+                    <div class="campos3">
+                        <label for="Historial_préstamos">Historial de préstamos</label>
+                        <span>></span>
+                    </div>
+                    <br>
+                    <div class="campos4">
+                        <label for="Usuarios_activos">Usuarios más activos</label>
+                        <span>></span>
+                    </div>
+                    <br>
+                    <div class="campos5">
+                        <label for="Libros_por_categoría">Libros por categoría</label>
+                        <span>></span>
+                    </div>
+                    <br>
+                    <div class="campos6">
+                        <label for="Exportar_reporte(PDF)">Exportar reporte(PDF)</label>
+                        <span>></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 
 </body>
